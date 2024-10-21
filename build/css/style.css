@@ -347,7 +347,7 @@ button,
 input:where([type='button']),
 input:where([type='reset']),
 input:where([type='submit']) {
-  /* -webkit-appearance: button; */
+  -webkit-appearance: button;
   /* 1 */
   background-color: transparent;
   /* 2 */
@@ -394,7 +394,7 @@ Correct the cursor style of increment and decrement buttons in Safari.
 */
 
 [type='search'] {
-  /* -webkit-appearance: textfield; */
+  -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
   /* 2 */
@@ -534,7 +534,7 @@ embed,
 object {
   display: block;
   /* 1 */
-  /* vertical-align: middle; */
+  vertical-align: middle;
   /* 2 */
 }
 
@@ -612,6 +612,10 @@ video {
   margin-top: 1rem;
 }
 
+.inline {
+  display: inline;
+}
+
 .flex {
   display: flex;
 }
@@ -658,6 +662,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.min-w-32 {
+  min-width: 8rem;
 }
 
 .max-w-4xl {
@@ -770,6 +778,10 @@ video {
 
 .border-solid {
   border-style: solid;
+}
+
+.border-none {
+  border-style: none;
 }
 
 .border-slate-900 {
@@ -950,22 +962,6 @@ video {
   --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.toggle-btn>div::after {
-  --tw-translate-y: 0px;
-  --tw-rotate: -45deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.toggle-btn>div::before {
-  --tw-translate-y: 0px;
-  --tw-rotate: 45deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.toggle-btn>div {
-  background-color: transparent;
 }
 
 .before\:absolute::before {
@@ -1287,6 +1283,11 @@ video {
   .sm\:text-5xl {
     font-size: 3rem;
     line-height: 1;
+  }
+
+  .sm\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
 
