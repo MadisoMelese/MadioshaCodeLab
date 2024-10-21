@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en" class="sm:scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Madisha-Rocket</title>
+  <link rel="icon" type="image/x-icon" href="fav.ico">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <script src="js/main.js "defer></script>
+</head>
+<body class="min-h-screen bg-slate-50 dark:bg-black dark:text-white">
+  <header class="bg-teal-700 text-white sticky top-0 z-10">
+    <section class="flex max-w-4xl mx-auto p-4  justify-between items-center">
+      <h1 class="text-3xl font-medium ">
+        <a href="#hero" class="flex justify-center items-center"><img class="w-16 h-16" src="img/icon.png" alt=""> Madisha Code Lab </a>
+      </h1>
+      <div class="right-0">
+        <button id="hamburger" class="text-3xl 
+        md:hidden cursor-pointer relative w-8 h-8">
+          <!-- &#9776; -->
+           <div class="bg-white w-8 h-1 rounded absolute top-4 -mt-0.5 before:content-[''] before:bg-white before:w-8 before:h-1 before:rounded before:absolute before:transition-all before:duration-500 before:-translate-x-4 before:-translate-y-3
+           
+           after:content-[''] after:bg-white after:w-8 after:h-1 after:rounded after:absolute after:transition-all after:duration-500 after:-translate-x-4 after:translate-y-3">
+
+           </div>
+        </button>
+        <nav class="hidden md:block space-x-8 text-xl" aria-label="main">
+          <a href="#rockets" class="hover:opacity-90">Portifolio</a>
+          <a href="#testimonials" class="hover:opacity-90">Testimonials</a>
+          <a href="#contact" class="hover:opacity-90">Contact</a>
+        </nav>
+    </div>
+    </section>
+
+    <section id="mobile-menu" class=" absolute top-68 bg-black w-full text-5xl  flex-col justify-center origin-top animate-open-menu hidden text-papayawhip">
+      <!-- <button class="text-8xl self-end px-6">
+        &times;
+      </button> -->
+      <nav class="flex flex-col min-h-screen items-center py-8" aria-label="mobile">
+        <a href="#hero" class="w-full py-8 hover:opacity-70 text-center">Home</a>
+        <a href="#rockets" class="w-full py-8 hover:opacity-70 text-center">Portifolio</a>
+        <a href="#testimonials" class="w-full py-8 hover:opacity-70 text-center">Testimonials</a>
+        <a href="#contact" class="w-full py-8 hover:opacity-70 text-center">Contact Us</a>
+        <a href="#legal" class="w-full py-8 text-center text-white hover:opacity-70">
+          Legal
+        </a>
+      </nav>
+
+    </section>
+     
+  </header>
+  <main class="max-w-4xl mx-auto">
+    <section id="hero" class="flex flex-col-reverse justify-center 
+      sm:flex-row p-6 items-center gap-8 mb-12 scroll-mt-40 
+      widescreen:section-min-height tallcreen:section-min-height">
+      <article class="sm:w-1/2">
+        <h2 class="max-w-md text-4xl font-bold text-center sm:text-5xl 
+        sm:text-left text-slate-900 dark:text-white">
+          We Boldy Go <span class="text-indigo-700 dark:text-indigo-300">
+            Where No Website</span>  Has Gone Before..
+        </h2>
+        <p class="max-w-md text-2xl mt-4 text-center sm:text-left text-slate-700 dark:text-slate-400">
+          We're building Softwares to the next generation today. 
+          Most of the our products are AI based and we're building 
+          modern websites, Web Applications, Mobile App and Software solution. 
+        </p>
+        <p class="max-w-md text-2xl mt-4 text-center sm:text-left text-slate-700 dark:text-slate-400">
+          Think Madisha Code Lab...
+        </p>
+      </article>
+      <img class="w-1/2" src="./img/bome.png" alt="Rocket Dab">
+
+    </section>
+    <hr class="mx-auto bg-black dark:bg-white w-1/2">
+
+    <section id="rockets" class="p-6 my-12 scroll-mt-20 
+    widescreen:section-min-height tallcreen:section-min-height">
+      <h2 class="text-4xl font-bold text-center sm:text-5xl mb-6
+       text-slate-900 dark:text-white ">
+        Our Sample Software solutions
+      </h2>
+      <ul class="list-none mx-auto my-12 flex flex-col sm:flex-row items-center gap-8">
+
+        <li class="cursor-pointer w-2/3 sm:w-5/6 flex flex-col items-center border border-solid
+         border-slate-900 dark:border-gray-100  bg-white dark:bg-black py-6 
+         px-2 rounded-3xl shadow-xl hover:border-teal-500
+         hover:border-r-4 hover:border-b-4">
+          <img src="./img/1st.png" alt="Explorer" class="w-1/2">
+          <h3 class="text-3xl text-center text-slate-900 dark:text-white">
+           Online Courses
+          </h3>
+          <p class="hidden sm:block text-3xl mt-2 text-center text-slate-500
+           dark:text-slate-400">
+          Best Free Online Courses for Computer Science Students. <br>
+          <a href="#" class="text-teal-600 hover:text-teal-400">Learn now!</a>
+          </p>
+          <p class="sm:hidden text-2xl text-center mt-2 text-slate-500
+          dark:text-slate-400">
+          Best Free Online Course for Tech Students. 
+          </p>
+        </li>
+        
+        <li class="cursor-pointer w-2/3 sm:w-5/6 flex flex-col items-center border border-solid
+         border-slate-900 dark:border-gray-100  bg-white dark:bg-black py-6 
+         px-2 rounded-3xl shadow-xl  hover:border-teal-500
+         hover:border-r-4 hover:border-b-4">
+          <img src="./img/3rd.png" alt="Explorer" class="w-1/2">
+          <h3 class="text-3xl text-center text-slate-900 dark:text-white">
+            Gulit
+          </h3>
+          <p class="hidden sm:block text-3xl mt-2 text-center text-slate-500
+           dark:text-slate-400">
+           Kidame-Gebeya(Saturday Market)! <br>
+           All in one!
+           <br>
+           <a href="#" class="text-teal-600 hover:text-teal-400">Order now!</a>
+            
+          </p>
+          <p class="sm:hidden text-2xl text-center mt-2 text-slate-500
+          dark:text-slate-400">
+            Kidame-Gebeya(Saturday Market) Order now!
+          </p>
+        </li>
+
+        <li class="cursor-pointer w-2/3 sm:w-5/6 flex flex-col items-center border 
+        border-solid
+         border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 
+         px-2 rounded-3xl shadow-xl  hover:border-teal-500
+         hover:border-r-4 hover:border-b-4">
+          <img src="./img/4th.png" alt="Explorer" class="w-1/2">
+          <h3 class="text-3xl text-center text-slate-900
+           dark:text-white">
+            M Real State
+          </h3>
+          <p class="hidden sm:block text-3xl mt-2 text-center text-slate-500
+           dark:text-slate-400">
+           If you wanna sell or buy Real State, u're in right place at right time!
+           <br>
+            <a href="#" class="text-teal-600 hover:text-teal-400">Visit Us</a> 
+          </p>
+          <p class="sm:hidden text-2xl text-center mt-2 text-slate-500
+          dark:text-slate-400">
+            If you wanna sell or buy Real State, Yuor in right place at right time!<br>
+            <a href="#" class="text-teal-600 hover:text-teal-400">Learn now!</a> 
+          </p>
+        </li>
+
+      </ul>
+    </section>
+
+    <hr class="mx-auto bg-black dark:bg-white w-1/2">
+
+    <section id="testimonials" class="p-6 my-12 scroll-mt-20">
+      <h2 class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">
+        Testimonials
+      </h2>
+ 
+
+      <figure class="my-12">
+        <blockquote class="bg-teal-600 dark:bg-black pl-14 pr-8 py-12 rounded-3xl 
+          relative">
+          <p class="text-2xl sm:text-3xl text-left mt-2 text-white 
+          dark:text-slate-400 before:content-['\201C'] before:font-serif
+           before:absolute 
+          before:top-0 before:left-0 before:text-9xl before:text-white 
+          before:opacity-25 before:transform before:translate-x-2 
+          before:translate-y-2
+          after:content-['\201D'] after:font-serif after:absolute 
+          after:-bottom-20 after:right-0 after:text-9xl after:text-white 
+          after:opacity-25 after:transform after:-translate-x-2 
+          after:anslate-y-2">Madisha 
+          Code Lab በኢትዮጵያ አዲስ ትውልድ 
+          ኮዴሮችን ለማሳደግ ከፍተኛ አስተዋፅዎ አድርጓል። ፕሮግራሞቻቸው 
+          ትምህርታዊ ብቻ ሳይሆኑ 
+          የሚያነቃቁ ከመሆናቸውም በላይ ወጣት አእምሮዎች የፈጠራ ችሎታ 
+          እንዲያዳክሙና እውነተኛውን ዓለም ችግሮች 
+          እንዲፈቱ ያበረታታሉ።</p>
+        </blockquote>
+        <figcaption class="italic text-xl sm:text-2xl text-right mt-2 text-slate-900 dark:text-slate-400">
+          &#8212;Betelhem Dessie, <span class="italic  text-slate-500">CEO of WebLab from Dessie</span> 
+        </figcaption>
+      </figure>
+
+      <figure class="my-12">
+        <blockquote class="bg-teal-600 dark:bg-black pl-14 pr-8 py-12 rounded-3xl 
+          relative">
+          <p class="text-2xl sm:text-3xl text-left mt-2 text-white 
+          dark:text-slate-400 before:content-['\201C'] before:font-serif
+           before:absolute 
+          before:top-0 before:left-0 before:text-9xl before:text-white 
+          before:opacity-25 before:transform before:translate-x-2 
+          before:translate-y-2
+          after:content-['\201D'] after:font-serif after:absolute 
+          after:-bottom-20 after:right-0 after:text-9xl after:text-white 
+          after:opacity-25 after:transform after:-translate-x-2 
+          after:-translate-y-2">
+          My daughter attended a summer coding camp at Madisha Code Lab, and it was a 
+          transformative experience for her. She developed a 
+          passion for technology and is now considering a career in software development
+          </p>
+        </blockquote>
+        <figcaption class="italic text-xl sm:text-2xl text-right mt-2 text-slate-900 dark:text-slate-400">
+          &#8212;Hana Gebremariam, <span class="italic  text-slate-700 ">Beza's mother from Addis Ababa</span> 
+        </figcaption>
+      </figure>
+
+      <figure class="my-12">
+        <blockquote class="bg-teal-600 dark:bg-black pl-14 pr-8 py-12 rounded-3xl 
+          relative">
+          <p class="text-2xl sm:text-3xl text-left mt-2 text-white 
+          dark:text-slate-400 before:content-['\201C'] before:font-serif
+           before:absolute 
+          before:top-0 before:left-0 before:text-9xl before:text-white 
+          before:opacity-25 before:transform before:translate-x-2 
+          before:translate-y-2
+          after:content-['\201D'] after:font-serif after:absolute 
+          after:-bottom-20 after:right-0 after:text-9xl after:text-white 
+          after:opacity-25 after:transform after:-translate-x-2 
+          after:-translate-y-2">
+          The hands-on approach at Madisha Code Lab 
+          helped me gain practical skills that I could 
+          immediately apply in my projects. 
+          The mentors are knowledgeable and supportive,
+           making the learning experience truly 
+           enriching
+
+          </p>
+          
+        </blockquote>
+        <figcaption class="italic text-xl sm:text-2xl text-right mt-2 text-slate-900 dark:text-slate-400">
+          &#8212;David M, <span class="italic  text-slate-500">Stud. from Bangeladish</span> 
+        </figcaption>
+      </figure>
+
+      <figure class="my-12">
+        <blockquote class="bg-teal-600 dark:bg-black pl-14 pr-8 py-12 rounded-3xl 
+          relative">
+          <p class="text-2xl sm:text-3xl text-left mt-2 text-white 
+          dark:text-slate-400 before:content-['\201C'] before:font-serif
+           before:absolute 
+          before:top-0 before:left-0 before:text-9xl before:text-white 
+          before:opacity-25 before:transform before:translate-x-2 
+          before:translate-y-2
+          after:content-['\201D'] after:font-serif after:absolute 
+          after:-bottom-20 after:right-0 after:text-9xl after:text-white 
+          after:opacity-25 after:transform-after:-translate-x-2 
+        after:-translate-y-2">
+            Hey, Dude if wanna be successful forget the conding and learn foreign trading(FX).
+
+          </p>
+          
+        </blockquote>
+        <figcaption class="italic text-xl sm:text-2xl text-right mt-2 text-slate-900 dark:text-slate-400">
+          &#8212;Chacha FX,<span class="italic  text-slate-700"> CEO of Chacah <span class="strong">FX</span> from Lab-5</span> 
+        </figcaption>
+      </figure>
+    </section>
+
+    <hr class="mx-auto bg-black dark:bg-white w-1/2">
+
+    <section id="contact" class="p-6 my-12 scroll-mt-24
+    widescreen:section-min-height tallcreen:section-min-height">
+      <h2 class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">
+        Contact Us
+      </h2>
+      <form action="" class="max-w-4xl mx-auto text-2xl sm:text-3xl flex flex-col items-lefet gap-4">
+        <label for="subject">Subject: </label>
+        <input type="text" id="subject" name="subject" required 
+        minlength="3" maxlength="60" placeholder="Your Subject" 
+        class="w-full text-black text-2xl sm:text-3xl p-3 rounded-xl border border-solid border-slate-900
+        dark:border-none hover:border-teal-500" />
+        <label for="message">Message: </label>
+        <textarea id="message" name="message" required rows="10" cols="30" placeholder="Your Message" 
+        class="w-full text-black text-2xl sm:text-3xl p-3 rounded-xl border border-solid 
+
+
+         hover:border-teal-400 
+         active:border-teal-400" 
+
+         ></textarea>
+        <button class="bg-teal-700 hover:bg-teal-600 active:bg-teal-500 p-3 w-48 rounded-xl border 
+        border-solid border-slate-900 dark:border-none cursor-pointer">
+          Submit
+        </button>
+      </form>
+    </section>
+  </main>
+  <footer id="footer" class="bg-teal-700 text-white text-xl">
+    <!-- &copy; 2023 WebLab. All rights reserved. | Designed by <a href="https://github.com/Madisha554" target="_blank">Madisha</a> -->
+     <section class="max-w-4xl mx-auto p-4 flex flex-col sm:flex-row sm:justify-between">
+      <address>
+       <h2 class="text-3xl" >
+        Madisha Code Lab Powered Products, Inc.</h2>
+          #123 Main St.<br>
+          Hossaina, Ethiopia<br>
+          Phone: +251954233154<br>
+          Email: <a href="mailto:madishamadiso00@gmail.com" class="text-teal-200 hover:text-teal-300">weblab@gmail.com</a>
+          
+      </address>
+      <nav class="hidden md:flex flex-col gap-2 text-3xl" aria-label="footer">
+        <a href="#rockets" class="hover:opacity-70">Portifolio</a>
+        <a href="#testimonials" class="hover:opacity-70">Testimonials</a>
+        <a href="#contact" class="hover:opacity-70">Contact</a>
+      </nav>
+      <!-- <div>
+        <ul class="text-left flex flex-col sm:gap-2">
+          <li>
+            <a class="fa fa-github" href="https://github.com/Madisha554" target="_blank">
+              GitHub
+            </a>
+          </li>
+         
+          <li>
+            <a class="fa fa-linkedin"  href="https://www.linkedin.com/in/madiso-melese-b7198b305/" target="_blank">
+              LinkedIn
+            </a>
+          </li>
+          <li>
+            <a class="fa fa-instagram" href="https://www.instagram.com/madiso-melese/" target="_blank">
+              Instagram
+            </a>
+          </li>
+        </ul>                     
+      </div> -->
+     
+      <div class="flex flex-col sm:gap-2">
+        <p class="text-right">Copyright &copy; 
+          <span id="year">2023</span> Madisha Code Lab.</p>
+        <p class="text-right">All Rights Reserved.</p>
+        <p class="text-right">Designed  by<a href="https://github.com/Madisha554" target="_blank" class="hover:opacity-70"> Madisha</a></p>
+      </div>
+    
+     </section>
+  </footer>
+</body>
+</html>
